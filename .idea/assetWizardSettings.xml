@@ -134,7 +134,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\admin\Downloads\14834838_5528913.jpg" />
+                                                <entry key="imagePath" value="C:\Users\admin\Downloads\icons8-support-50.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -168,8 +168,8 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="C:\Users\admin\Downloads\14834838_5528913.jpg" />
-                                      <entry key="outputName" value="background_intro" />
+                                      <entry key="imageAsset" value="C:\Users\admin\Downloads\icons8-support-50.png" />
+                                      <entry key="outputName" value="support_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>

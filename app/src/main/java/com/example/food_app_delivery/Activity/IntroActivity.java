@@ -69,7 +69,7 @@ public class IntroActivity extends AppCompatActivity {
                         Intent intent=new Intent(IntroActivity.this,MainActivity.class);
                         startActivity(intent);
                     }
-                    else if(userEditText.getText().toString().equals("admin") && passEditText.getText().toString().equals("123")){
+                    else if(userEditText.getText().toString().equals("1") && passEditText.getText().toString().equals("1")){
                         Toast.makeText(IntroActivity.this,"Bạn đã đăng nhập thành công",Toast.LENGTH_SHORT).show();
                         Intent intent=new Intent(IntroActivity.this,MainActivity.class);
                         startActivity(intent);

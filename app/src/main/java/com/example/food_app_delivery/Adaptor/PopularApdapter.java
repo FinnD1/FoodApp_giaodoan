@@ -1,5 +1,6 @@
 package com.example.food_app_delivery.Adaptor;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,11 +35,12 @@ public class PopularApdapter extends RecyclerView.Adapter<PopularApdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PopularApdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull PopularApdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.title.setText(foodList.get(position).getTitle());
         holder.fee.setText(String.valueOf(foodList.get(position).getFee()));
 
-        int drawableResourceId=holder.itemView.getContext().getResources().getIdentifier(foodList.get(position).getPic(),"drawable",holder.itemView.getContext().getPackageName());
+        int drawableResourceId=holder.itemView.getContext().getResources().getIdentifier(foodList.get(position).getPic()
+                ,"drawable",holder.itemView.getContext().getPackageName());
 
         Glide.with(holder.itemView.getContext())
                 .load(drawableResourceId)

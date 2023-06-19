@@ -35,7 +35,7 @@ public class ShowDetailActivity extends AppCompatActivity {
         Glide.with(this).load(drawableResourceId).load(picFood);
 
         titleTxt.setText(object.getTitle());
-        feeTxt.setText(object.getFee()+"VND");
+        feeTxt.setText(object.getFee()+" VND");
         descriptionTxt.setText(object.getDescription());
         numberOrderTxt.setText(String.valueOf(numberOrder));
 
@@ -76,6 +76,5 @@ public class ShowDetailActivity extends AppCompatActivity {
         picFood=findViewById(R.id.picFood);
         minusBtn=findViewById(R.id.minusBtn);
         plusBtn=findViewById(R.id.plusBtn);
-        picFood=findViewById(R.id.picFood);
     }
 }

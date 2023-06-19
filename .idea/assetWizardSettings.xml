@@ -134,7 +134,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\admin\Downloads\icons8-support-50.png" />
+                                                <entry key="imagePath" value="C:\Users\admin\Downloads\Pizza-Ga-Pho-Mai-Thit-Heo-Xong-Khoi-Cheesy-Chicken-Bacon.jpg" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -168,8 +168,8 @@
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
                                       <entry key="iconShape" value="NONE" />
-                                      <entry key="imageAsset" value="C:\Users\admin\Downloads\icons8-support-50.png" />
-                                      <entry key="outputName" value="support_icon" />
+                                      <entry key="imageAsset" value="C:\Users\admin\Downloads\Pizza-Ga-Pho-Mai-Thit-Heo-Xong-Khoi-Cheesy-Chicken-Bacon.jpg" />
+                                      <entry key="outputName" value="pizza_ga" />
                                     </map>
                                   </option>
                                 </PersistentState>

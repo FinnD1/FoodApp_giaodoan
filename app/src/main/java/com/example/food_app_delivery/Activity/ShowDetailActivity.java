@@ -8,8 +8,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.food_app_delivery.Domain.FoodDomain;
-import com.example.food_app_delivery.Helper.ManagementCart;
+import com.example.food_app_delivery.Adaptor.FoodDomain;
+import com.example.food_app_delivery.Adaptor.ManagementCart;
 import com.example.food_app_delivery.R;
 
 public class ShowDetailActivity extends AppCompatActivity {

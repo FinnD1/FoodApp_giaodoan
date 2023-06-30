@@ -12,8 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.food_app_delivery.Domain.FoodDomain;
-import com.example.food_app_delivery.Helper.ManagementCart;
 import com.example.food_app_delivery.Interface.ChangeNumberItemsListener;
 import com.example.food_app_delivery.R;
 

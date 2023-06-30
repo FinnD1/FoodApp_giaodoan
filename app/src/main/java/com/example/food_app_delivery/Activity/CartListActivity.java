@@ -11,10 +11,9 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.food_app_delivery.Adaptor.CartListAdaptor;
-import com.example.food_app_delivery.Helper.ManagementCart;
+import com.example.food_app_delivery.Adaptor.ManagementCart;
 import com.example.food_app_delivery.Interface.ChangeNumberItemsListener;
 import com.example.food_app_delivery.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;

@@ -10,11 +10,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import com.example.food_app_delivery.Adaptor.PopularApdapter;
-import com.example.food_app_delivery.Domain.FoodDomain;
+import com.example.food_app_delivery.Adaptor.FoodDomain;
 import com.example.food_app_delivery.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {

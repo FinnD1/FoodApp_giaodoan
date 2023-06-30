@@ -1,10 +1,8 @@
-package com.example.food_app_delivery.Helper;
+package com.example.food_app_delivery.Adaptor;
 
 import android.content.Context;
-import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.example.food_app_delivery.Domain.FoodDomain;
 import com.example.food_app_delivery.Interface.ChangeNumberItemsListener;
 
 import java.util.ArrayList;

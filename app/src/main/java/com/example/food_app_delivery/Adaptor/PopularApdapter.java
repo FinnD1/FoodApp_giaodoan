@@ -9,15 +9,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.food_app_delivery.Activity.ShowDetailActivity;
-import com.example.food_app_delivery.Domain.FoodDomain;
 import com.example.food_app_delivery.R;
-
-import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 
